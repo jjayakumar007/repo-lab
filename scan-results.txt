@@ -1,0 +1,58 @@
+# Nmap 7.95 scan initiated Mon Sep 22 08:54:50 2025 as: /usr/lib/nmap/nmap -sS -p 1-1024 -oN scan-results.txt 192.168.1.0/24
+Nmap scan report for Unit (192.168.1.1)
+Host is up (0.0044s latency).
+Not shown: 1019 filtered tcp ports (no-response), 2 filtered tcp ports (port-unreach)
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+443/tcp open   https
+445/tcp closed microsoft-ds
+MAC Address: 58:07:F8:5D:AC:11 (Nokia Solutions and Networks GmbH & KG)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00062s latency).
+All 1024 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1024 filtered tcp ports (no-response)
+MAC Address: 2C:7B:A0:E7:EA:14 (Intel Corporate)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0073s latency).
+All 1024 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1024 closed tcp ports (reset)
+MAC Address: 3A:54:E7:ED:FB:2D (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0091s latency).
+All 1024 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1024 closed tcp ports (reset)
+MAC Address: 9E:0F:4F:20:13:4D (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0018s latency).
+Not shown: 1012 closed tcp ports (reset)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+23/tcp  open  telnet
+25/tcp  open  smtp
+53/tcp  open  domain
+80/tcp  open  http
+111/tcp open  rpcbind
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+512/tcp open  exec
+513/tcp open  login
+514/tcp open  shell
+MAC Address: 00:0C:29:2E:F2:24 (VMware)
+
+Nmap scan report for 192.168.1.18
+Host is up (0.0055s latency).
+All 1024 scanned ports on 192.168.1.18 are in ignored states.
+Not shown: 1024 closed tcp ports (reset)
+MAC Address: AE:2C:1F:64:AF:CB (Unknown)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.00015s latency).
+All 1024 scanned ports on 192.168.1.7 are in ignored states.
+Not shown: 1024 closed tcp ports (reset)
+
+# Nmap done at Mon Sep 22 08:55:42 2025 -- 256 IP addresses (7 hosts up) scanned in 52.91 seconds
